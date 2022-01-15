@@ -1,0 +1,8 @@
+body {
+    background-color: coral;
+}
+img {
+    display: block;
+    width: 25%;
+    margin: auto;
+}
