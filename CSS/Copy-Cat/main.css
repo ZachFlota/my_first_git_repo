@@ -1,0 +1,60 @@
+body {
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    color: orange;  
+    font-size: 16px;  
+    font-family: sans-serif;  
+    margin: auto;
+    padding-left: 8em;
+    padding-right: 8em;
+    position: relative;
+}
+header div {
+    padding: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    position: static;
+    align-content: center;
+    padding-left: 8em;
+    padding-right: 8em;
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: flex-end;
+    position: relative;
+    top: 40px;
+    
+}
+
+nav img {
+    max-width: 50%;
+}
+nav li {
+    padding: 1em;
+}
+
+#hero {
+    max-width: 100%;
+}
